@@ -1,0 +1,52 @@
+RNN - Sequence to sequence - Started Training @ 09:20am, Finished Training @ ??:??am
+
+# Shakespeare Text total length: 4,573,338
+# Distinct chars: 67
+# Total Sequences: 1,524,438
+# Training samples: 1,371,994
+# Validation samples: 152,444
+# total steps per epoch: 10,719
+
+1 Iteration, 1 Epoch, Layers=[input_layer
+                                128, dropout=.5,
+                                256, dropout=.5,
+                                128, dropout=.5,
+                                256, dropout=.5,
+                                128, dropout=.5,
+                                output_layer
+
+
+WARNING:tensorflow:From C:\Users\Francis\Anaconda3\lib\site-packages\tflearn\objectives.py:66:
+calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+---------------------------------
+Run id: shakespeare
+Log directory: tensorboard_logs/
+WARNING:tensorflow:Issue encountered when serializing layer_tensor/Dropout.
+Type is unsupported, or the types of the items don't match field type in CollectionDef.
+Note this is a warning and probably safe to ignore.
+'list' object has no attribute 'name'
+WARNING:tensorflow:Issue encountered when serializing layer_tensor/LSTM_1.
+Type is unsupported, or the types of the items don't match field type in CollectionDef.
+Note this is a warning and probably safe to ignore.
+'list' object has no attribute 'name'
+WARNING:tensorflow:Issue encountered when serializing layer_tensor/LSTM_3.
+Type is unsupported, or the types of the items don't match field type in CollectionDef.
+Note this is a warning and probably safe to ignore.
+'list' object has no attribute 'name'
+WARNING:tensorflow:Issue encountered when serializing layer_tensor/LSTM.
+Type is unsupported, or the types of the items don't match field type in CollectionDef.
+Note this is a warning and probably safe to ignore.
+'list' object has no attribute 'name'
+WARNING:tensorflow:Issue encountered when serializing layer_tensor/LSTM_2.
+Type is unsupported, or the types of the items don't match field type in CollectionDef.
+Note this is a warning and probably safe to ignore.
+'list' object has no attribute 'name'
+
+
+
+
+
+
+

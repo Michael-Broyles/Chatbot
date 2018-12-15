@@ -1,0 +1,72 @@
+RNN - Sequence to sequence
+
+1 Iteration, 5 Epochs, Layers=[input_layer
+                                128, dropout=.5,
+                                128, dropout=.5,
+                                128, dropout=.5,
+                                128, dropout=.5,
+                                128, dropout=.5,
+                                output_layer
+
+| Adam | epoch: 005 | loss: 1.73462 | val_loss: 1.59560 -- iter: 1371994/1371994
+
+
+WARNING:tensorflow:Issue encountered when serializing layer_tensor/LSTM_3.
+Type is unsupported, or the types of the items don't match field type in CollectionDef. Note this is a warning and probably safe to ignore.
+'list' object has no attribute 'name'
+WARNING:tensorflow:Issue encountered when serializing layer_tensor/LSTM_1.
+Type is unsupported, or the types of the items don't match field type in CollectionDef. Note this is a warning and probably safe to ignore.
+'list' object has no attribute 'name'
+WARNING:tensorflow:Issue encountered when serializing layer_tensor/LSTM.
+Type is unsupported, or the types of the items don't match field type in CollectionDef. Note this is a warning and probably safe to ignore.
+'list' object has no attribute 'name'
+WARNING:tensorflow:Issue encountered when serializing layer_tensor/Dropout.
+Type is unsupported, or the types of the items don't match field type in CollectionDef. Note this is a warning and probably safe to ignore.
+'list' object has no attribute 'name'
+WARNING:tensorflow:Issue encountered when serializing layer_tensor/LSTM_2.
+Type is unsupported, or the types of the items don't match field type in CollectionDef. Note this is a warning and probably safe to ignore.
+'list' object has no attribute 'name'
+
+
+-- TESTING...
+-- Test with temperature of 1.0 --
+
+
+C:\Users\Francis\Anaconda3\lib\site-packages\tflearn\models\generator.py:337:
+RuntimeWarning: divide by zero encountered in log
+  a = np.log(a) / temperature
+
+
+r that's your name, I hearns,
+Or theo love the flick'd and kread. thou dest you were my wowas how our thing.
+
+ROMEO:
+Come, I hath on 'sfoundix on thy bed to chutret my mach,
+The veer, this reswung. Meny arparer at
+in conjess the iubert I have nothing a lealby greeds is five, that; and me she vaaly; let, by demendy
+As he shall make me youset is 'maces detune I best,
+The ceesew weating him to she.
+
+KING HENRY V:
+She were very bath gatige I were drasath in eed'!
+Go mens I ren, afple body for a cauntion.
+Honance; upon the days be counwia for the maning.
+
+GIES:
+So saeted meradian's nake now
+my take we have her and brest-qu
+-- Test with temperature of 0.5 --
+r that's your name, I heard you and excealanged, and of thy some matter,
+And and have a cortor to the perponus and anment with whip of their matter is shall be shame what fare
+And he had his made with shon sure of the both to the misthing we shall side my servouth the son of the world?
+
+SIR TREMAN:
+To the warling to live their lick distrosion and saliart deserce thee and this dead, so that the dost will I beseet a and an the attends
+Hath make the bear to my servorer as the loase to the right.
+
+GLOUCESTER:
+The will and we will the presence of the recompans you are his to so wants and speed in the wife,
+And misselt in s
+
+
+Process finished with exit code 0
